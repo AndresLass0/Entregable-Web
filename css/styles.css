@@ -4,21 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 255, 255);
+.navbar-nav .nav-link:hover {
+  background-color: #f0f0f0;   
+  color: #007bff;             
+  border-radius: 5px;          
+  transition: all 0.3s;
 }
 
-.carousel-item img{
-    height: 30vh;
-    object-fit: cover;
-    object-position: center;
-}
-
-
-/* Aqui pc */
-@media (min-width: 768px) {
-    .carousel-item img {
-        height: 50vh;; 
-        object-position: 50% 40%;
-    }
-}
